@@ -371,6 +371,41 @@ strong {
   padding: 60px 40px;
 }
 
+.team-thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 100%;
+  padding: 0; /* Remove padding */
+  overflow: hidden; /* Ensure content fits within the border */
+}
+
+
+.team-image {
+  width: 100%;  /* Fixed width */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+  /* border-radius: 50%; */
+  margin-bottom: 15px;
+}
+
+.team-info {
+  padding: 15px; /* Add padding to the info section */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%; /* Ensure it takes full width */
+}
+
+.team-thumb h4, .team-thumb p {
+  margin: 0;
+}
+
+
 .hero-carousel .reviews-text,
 .hero-text {
   color: var(--white-color);
