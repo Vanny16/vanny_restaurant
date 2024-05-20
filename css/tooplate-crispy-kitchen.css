@@ -163,8 +163,8 @@ strong {
 -----------------------------------------*/
 .navbar {
   background: var(--white-color);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar-brand {
@@ -721,7 +721,7 @@ strong {
 }
 
 .BgImage {
-  background-image: url('../images/alex-haney-CAhjZmVk5H4-unsplash.jpg');
+  background-image: url('../images/image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -866,13 +866,13 @@ strong {
   }
 
   .navbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .navbar-nav .nav-link {
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
   #BookingModal .modal-content {
